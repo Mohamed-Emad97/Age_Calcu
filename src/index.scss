@@ -1,0 +1,10 @@
+//Import Files
+@use "./Components/Home/Home.scss" as *;
+
+
+//Rules
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,41 @@
+#home{
+    .inputFiled{
+        background-color: #f0f4ff;
+        .title{
+            color: #291D89;
+        }
+        .form{
+            input{
+                border: none;
+                outline: none;
+                background-color: #fff;
+                color: #291D89;
+                transition: all 1s;
+                &:is(:focus,:hover){
+                    outline: 1px solid #4E67b4;
+                }
+                &::placeholder{
+                    color: #291D89;
+                }
+            }
+            .btnMain{
+                border: 1px solid #291D89;
+                color: #444;
+                background-color: #f0f4ff;
+                font-size: 16px;
+                transition: all 1s;
+                outline: none;
+                &:hover{
+                    background-color: #291D89;
+                    color: #f0f4ff;
+                }
+            }
+        }
+    }
+    .mainCard{
+        background-color: #f0f4ff;
+        box-shadow: 0px 0px 30px -11px rgba(0,0,0,0.29);
+        -webkit-box-shadow: 0px 0px 30px -11px rgba(0,0,0,0.29);
+        -moz-box-shadow: 0px 0px 30px -11px rgba(0,0,0,0.29);
+    }
+}
